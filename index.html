@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RMRT</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    
+    <script src="scripts/utilities.js"></script>
+    <script src="scripts/titles.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div class="content">
+    <header>
+    </header>
+    <main>
+        <h1>Random Manga Recommendation Tool</h1>
+        <div id="comicTitleDiv">
+            <p>おすすめの漫画のタイトル</p><br>
+            <span id="comicTitle"></span>
+        </div>
+        <div id="activateButtonDiv">
+            <button id="activateButton" onclick="changeComicTitle()">ACTIVATE!</button>
+        </div>
+        <div id="copyButtonDiv">
+            <button id="copyButton" onclick="copyTitle()"><span id="copyButtonText"></span></button>
+        </div>
+    </main>
+    <footer>
+        &copy; CannotTalk 2025
+    </footer>
+    </div>
+</body>
+</html>
